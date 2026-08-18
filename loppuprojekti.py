@@ -49,7 +49,7 @@ while True:
     elif valinta == 2:
         show_movies()
     elif valinta == 3:
-        search_movies
+        search_movies()
     elif valinta == 4:
         edit_movie()
     elif valinta == 5:
