@@ -43,3 +43,16 @@ while True:
     if valinta not in [1, 2, 3, 4, 5, 6, 0]:
         print("Väärä valinta")
         continue
+
+    if valinta == 1:
+        add_movie()
+    elif valinta == 2:
+        show_movies()
+    elif valinta == 3:
+        search_movies
+    elif valinta == 4:
+        edit_movie()
+    elif valinta == 5:
+        delete_movies()
+    elif valinta == 6:
+        show_statistics()
